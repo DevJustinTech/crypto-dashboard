@@ -1,0 +1,20 @@
+{
+  "name": "crypto-dashboard",
+  "version": "1.0.0",
+  "description": "Experience lightning-fast performance and a responsive design with this cryptocurrency dashboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevJustinTech/crypto-dashboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevJustinTech/crypto-dashboard/issues"
+  },
+  "homepage": "https://github.com/DevJustinTech/crypto-dashboard#readme"
+}
