@@ -2,16 +2,34 @@
   "name": "crypto-dashboard",
   "version": "1.0.0",
   "description": "Experience lightning-fast performance and a responsive design with this cryptocurrency dashboard",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "tailwindcss": "^4.0.0",
+    "vite": "^7.0.0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DevJustinTech/crypto-dashboard.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "crypto",
+    "dashboard",
+    "react",
+    "tailwind",
+    "coingecko"
+  ],
+  "author": "Akinbowale Olugbenga Justin",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/DevJustinTech/crypto-dashboard/issues"
