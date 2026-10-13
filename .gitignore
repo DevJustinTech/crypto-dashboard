@@ -1,2 +1,27 @@
-node_modules
-dist
+# Secrets - never commit
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+dist/
+build/
+
+# Nested git repositories (tracked separately)
+Heart-Disease-Prediction-Model/
+
+# Tooling
+.zencoder/
+
+# OS
+desktop.ini
+Thumbs.db
+.DS_Store
